@@ -1,0 +1,14 @@
+{
+  "..\\components\\Hero\\Hero3.jsx -> react-water-wave": {
+    "id": "..\\components\\Hero\\Hero3.jsx -> react-water-wave",
+    "files": [
+      "static/chunks/node_modules_react-water-wave_lib_index_js.js"
+    ]
+  },
+  "..\\components\\Layout\\index.jsx -> ../CustomCursor": {
+    "id": "..\\components\\Layout\\index.jsx -> ../CustomCursor",
+    "files": [
+      "static/chunks/components_CustomCursor_index_jsx.js"
+    ]
+  }
+}
