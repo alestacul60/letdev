@@ -20,11 +20,11 @@ export default function Home() {
   // Hero Social Links
   const heroSocialLinks = [
     {
-      name: 'Facebook',
+      name: 'Instagram',
       links: '/',
     },
     {
-      name: 'Twitter',
+      name: 'LinkedIn',
       links: '/',
     },
   ];
@@ -32,20 +32,20 @@ export default function Home() {
   // FunFact Data
   const funfaceData = [
     {
-      title: 'Clientes Felices',
-      factNumber: 'Ninguno',
+      title: '',
+      factNumber: 'Prácticas',
     },
     {
-      title: 'Proyectos Completados',
-      factNumber: '50',
+      title: '',
+      factNumber: 'Innovadoras',
     },
     {
-      title: 'Miebros del Equipo',
-      factNumber: '5',
+      title: '',
+      factNumber: 'Eficientes',
     },
     {
-      title: 'Productos',
-      factNumber: '15',
+      title: '',
+      factNumber: 'Personalizadas',
     },
   ];
 
@@ -60,7 +60,7 @@ export default function Home() {
         {/* Start Hero Section */}
         <Hero
           title="LetDev"
-          subtitle="Entregamos la mejor resolución de problemas para nuestros clientes y proporcionamos el producto de mayor calidad en el presente y en el futuro."
+          subtitle="Impulsamos la transformacion digital de empresas mediante soluciones digitales practicas y personalizadas, promoviendo el crecimiento empresarial."
           btnText="Contactanos"
           btnLink="/contact"
           scrollDownId="#service"
@@ -74,8 +74,8 @@ export default function Home() {
         <div className="container">
           <FunFact
             variant="cs-type1"
-            title="Nuestros servicios"
-            subtitle="Somos especialistas en desarrollar soluciones eficientes para todas sus necesidades"
+            title="Somos especialistas"
+            subtitle="en desarrollar soluciones que se adaptan a todas sus necesidades."
             data={funfaceData}
           />
         </div>
@@ -88,7 +88,7 @@ export default function Home() {
             <Div className="row">
               <Div className="col-xl-4">
                 <SectionHeading
-                  title="Servicios con los que podemos ayudarte"
+                  title="Nuestros servicios"
                   subtitle="Que podemos hacer?"
                   btnText="Ver Todos nuestros servicios"
                   btnLink="/service"
@@ -173,13 +173,12 @@ export default function Home() {
         <Spacing lg="130" md="70" />
         <Div className="container">
           <h2 className="cs-font_50 cs-m0 text-center cs-line_height_4">
-            Nuestro proceso ágil es la capacidad de adaptarnos y responder al cambio.
-            Las organizaciones ven el cambio como una oportunidad.
-          </h2>
+            Nuestro proceso ágil nos permite adaptarnos y responder rápidamente al cambio.</h2>
+
           <Spacing lg="70" md="70" />
           <VideoModal
-            videoSrc="https://www.youtube.com/watch?v=VcaAVWtP48A"
-            bgUrl="/images/video_bg.jpeg"
+            videoSrc="https://www.youtube.com/watch?v=JzRUbdqa_hU&list=PLp2zTInxCVPSO4f1RxgVnUUTgnarc8f2e&index=9"
+            bgUrl="/images/cap2.png"
           />
         </Div>
         {/* End Video Block Section */}
@@ -189,7 +188,7 @@ export default function Home() {
         <Div className="container">
           <SectionHeading
             title="Nuestro <br/>equipo"
-            subtitle="Nuestro equipo"
+            subtitle="Equipo"
             variant="cs-style1"
           />
           <Spacing lg="85" md="45" />
@@ -203,7 +202,7 @@ export default function Home() {
         {/* End Testimonial Section */}
 
         {/* Start Blog Section */}
-        <Spacing lg="150" md="80" />
+        {/* <Spacing lg="150" md="80" />
         <Div className="cs-shape_wrap_4">
           <Div className="cs-shape_4"></Div>
           <Div className="cs-shape_4"></Div>
@@ -225,20 +224,20 @@ export default function Home() {
               </Div>
             </Div>
           </Div>
-        </Div>
+        </Div> */}
         {/* End Blog Section */}
 
         {/* Start MovingText Section */}
         <Spacing lg="125" md="70" />
-        <MovingText text="Nuestros clientes" />
+        <MovingText text="La solucion que buscas en un solo lugar" />
         <Spacing lg="105" md="70" />
         {/* End MovingText Section */}
 
         {/* Start LogoList Section */}
-        <Div className="container">
+        {/* <Div className="container">
           <LogoList />
         </Div>
-        <Spacing lg="150" md="80" />
+        <Spacing lg="150" md="80" /> */}
         {/* End LogoList Section */}
 
         {/* Start CTA Section */}

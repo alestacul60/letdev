@@ -6,31 +6,55 @@ import Slider from 'react-slick';
 export default function PortfolioSlider() {
   const portfolioData = [
     {
-      title:'Colorful Art Work',
-      subtitle:'See Details',
-      href:'/portfolio/portfolio-details',
-      src:'/images/portfolio_1.jpeg'
+      title: 'Sitio Minimalista',
+      subtitle: 'Ver Detalle',
+      href: '/portfolio/portfolio-details',
+      src: '/images/cap1.png'
     },
     {
-      title:'Colorful Art Work',
-      subtitle:'See Details',
-      href:'/portfolio/portfolio-details',
-      src:'/images/portfolio_2.jpeg'
+      title: 'Restaurante',
+      subtitle: 'Ver Detalle',
+      href: '/portfolio/portfolio-details',
+      src: '/images/cap13.png'
     },
     {
-      title:'Colorful Art Work',
-      subtitle:'See Details',
-      href:'/portfolio/portfolio-details',
-      src:'/images/portfolio_0.jpg'
+      title: 'Menu',
+      subtitle: 'Ver Detalle',
+      href: '/portfolio/portfolio-details',
+      src: '/images/cap12.png'
     },
     {
-      title:'Colorful Art Work',
-      subtitle:'See Details',
-      href:'/portfolio/portfolio-details',
-      src:'/images/portfolio_3.jpeg'
+      title: 'Portfolio',
+      subtitle: 'Ver Detalle',
+      href: '/portfolio/portfolio-details',
+      src: '/images/cap14.png'
+    },
+    {
+      title: 'CV Online',
+      subtitle: 'Ver Detalle',
+      href: '/portfolio/portfolio-details',
+      src: '/images/cap15.png'
+    },
+    {
+      title: 'Catalogo',
+      subtitle: 'Ver Detalle',
+      href: '/portfolio/portfolio-details',
+      src: '/images/cap16.png'
+    },
+    {
+      title: 'Presentacion',
+      subtitle: 'Ver Detalle',
+      href: '/portfolio/portfolio-details',
+      src: '/images/cap17.png'
+    },
+    {
+      title: 'Portfolio Fotografico',
+      subtitle: 'Ver Detalle',
+      href: '/portfolio/portfolio-details',
+      src: '/images/cap18.png'
     }
   ]
-  
+
   /** Slider Settings **/
   const settings = {
     className: "center",
@@ -40,7 +64,7 @@ export default function PortfolioSlider() {
     slidesToShow: 3,
     speed: 500,
     dots: true,
-    arrows:false,
+    arrows: false,
     responsive: [
       {
         breakpoint: 768,
@@ -50,13 +74,13 @@ export default function PortfolioSlider() {
       }
     ]
   };
-  
+
   return (
     <Slider {...settings} className='cs-slider cs-style3 cs-gap-24'>
-      {portfolioData.map((item, index)=> (
+      {portfolioData.map((item, index) => (
         <Div key={index}>
-          <Portfolio 
-            title={item.title} 
+          <Portfolio
+            title={item.title}
             subtitle={item.subtitle}
             href={item.href}
             src={item.src}

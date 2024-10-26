@@ -25,36 +25,28 @@ export default function CreativePortfolio() {
   ];
   const portfolioData = [
     {
-      title: 'Diseño y desarrollo de sitios web de comercio electrónico.',
-      subtitle: 'Project 01',
+      title: 'Diseño y desarrollo de sitios web.',
+      subtitle: 'Proyecto 01',
       btnText: 'Ver Detalles',
       btnLink: '/portfolio/portfolio-details',
-      imageUrl: '/images/portfolio_35.jpeg',
-      category: 'Web Development',
+      imageUrl: '/images/cap16.png',
+      category: 'Desarrollo Web',
     },
     {
-      title: 'Agencia corporativa para un medio ambiente saludable',
-      subtitle: 'Project 02',
+      title: 'Sistemas a medida para empresas',
+      subtitle: 'Proyecto 02',
       btnText: 'Ver Detalles',
       btnLink: '/portfolio/portfolio-details',
-      imageUrl: '/images/portfolio_36.jpeg',
-      category: 'Branding',
+      imageUrl: '/images/coding.png',
+      category: 'Sistemas',
     },
     {
-      title: 'Panel de administrador',
-      subtitle: 'Project 03',
+      title: 'Diseño UX/UI',
+      subtitle: 'Proyecto 03',
       btnText: 'Ver Detalles',
       btnLink: '/portfolio/portfolio-details',
-      imageUrl: '/images/portfolio_37.jpeg',
-      category: 'UI Design',
-    },
-    {
-      title: 'Otro proyecto',
-      subtitle: 'Project 04',
-      btnText: 'Ver Detalles',
-      btnLink: '/portfolio/portfolio-details',
-      imageUrl: '/images/portfolio_38.jpeg',
-      category: 'Apps Design',
+      imageUrl: '/images/uxui500x500.jpg',
+      category: 'Diseño UX/UI',
     },
   ];
 
@@ -68,7 +60,7 @@ export default function CreativePortfolio() {
       <Layout>
         {/* Start Hero Section */}
         <Hero3
-          title="LetDev <br />Portfolio"
+          title="LetDev <br />Portfolio Creativo"
           btnLink="contact"
           btnText={`Hablemos`}
           socialLinksHeading="Seguinos"
@@ -125,7 +117,7 @@ export default function CreativePortfolio() {
           variant="cs-style2"
         />
         <CaseStudy
-          title="Aplicacion de viajes <br /> caso de estudio"
+          title="Digitalizacion <br /> empresarial"
           bgUrl="/images/case_study_1.jpeg"
           href="/case-study-details"
         />
@@ -137,16 +129,10 @@ export default function CreativePortfolio() {
 
         {/* Start MovingText Section */}
         <Spacing lg="125" md="70" />
-        <MovingText text="Nuestros Clientes" />
+        <MovingText text="Las soluciones que buscas en un solo lugar" />
         <Spacing lg="105" md="70" />
         {/* End MovingText Section */}
 
-        {/* Start LogoList Section */}
-        <Div className="container">
-          <LogoList />
-        </Div>
-        <Spacing lg="150" md="80" />
-        {/* End LogoList Section */}
 
         {/* Start CTA Section */}
         <Div className="container">

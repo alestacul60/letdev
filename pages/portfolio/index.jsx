@@ -14,92 +14,74 @@ export default function PortfolioPage() {
   const [itemShow, setItemShow] = useState(7);
   const portfolioData = [
     {
-      title: 'Colorful Art Work',
-      subtitle: 'See Details',
+      title: 'Sitio Minimalista',
+      subtitle: 'Ver Detalle',
       href: '/portfolio/portfolio-details',
-      src: '/images/portfolio_4.jpeg',
-      category: 'ui_ux_design',
-    },
-    {
-      title: 'Colorful Art Work',
-      subtitle: 'See Details',
-      href: '/portfolio/portfolio-details',
-      src: '/images/portfolio_5.jpeg',
-      category: 'logo_design',
-    },
-    {
-      title: 'Colorful Art Work',
-      subtitle: 'See Details',
-      href: '/portfolio/portfolio-details',
-      src: '/images/portfolio_6.jpeg',
+      src: '/images/cap1.png',
       category: 'web_design',
     },
     {
-      title: 'Colorful Art Work',
-      subtitle: 'See Details',
+      title: 'Restaurante',
+      subtitle: 'Ver Detalle',
       href: '/portfolio/portfolio-details',
-      src: '/images/portfolio_7.jpeg',
-      category: 'mobile_apps',
+      src: '/images/cap13.png',
+      category: 'food',
     },
     {
-      title: 'Colorful Art Work',
-      subtitle: 'See Details',
+      title: 'Menu',
+      subtitle: 'Ver Detalle',
       href: '/portfolio/portfolio-details',
-      src: '/images/portfolio_8.jpeg',
-      category: 'ui_ux_design',
+      src: '/images/cap12.png',
+      category: 'food',
     },
     {
-      title: 'Colorful Art Work',
-      subtitle: 'See Details',
+      title: 'Portfolio',
+      subtitle: 'Ver Detalle',
       href: '/portfolio/portfolio-details',
-      src: '/images/portfolio_9.jpeg',
+      src: '/images/cap14.png',
+      category: 'cv',
+    },
+    {
+      title: 'CV Online',
+      subtitle: 'Ver Detalle',
+      href: '/portfolio/portfolio-details',
+      src: '/images/cap15.png',
+      category: 'cv',
+    },
+    {
+      title: 'Catalogo',
+      subtitle: 'Ver Detalle',
+      href: '/portfolio/portfolio-details',
+      src: '/images/cap16.png',
       category: 'web_design',
     },
     {
-      title: 'Colorful Art Work',
-      subtitle: 'See Details',
+      title: 'Presentacion',
+      subtitle: 'Ver Detalle',
       href: '/portfolio/portfolio-details',
-      src: '/images/portfolio_10.jpeg',
-      category: 'logo_design',
-    },
-    {
-      title: 'Colorful Art Work',
-      subtitle: 'See Details',
-      href: '/portfolio/portfolio-details',
-      src: '/images/portfolio_4.jpeg',
-      category: 'ui_ux_design',
-    },
-    {
-      title: 'Colorful Art Work',
-      subtitle: 'See Details',
-      href: '/portfolio/portfolio-details',
-      src: '/images/portfolio_5.jpeg',
-      category: 'logo_design',
-    },
-    {
-      title: 'Colorful Art Work',
-      subtitle: 'See Details',
-      href: '/portfolio/portfolio-details',
-      src: '/images/portfolio_6.jpeg',
+      src: '/images/cap17.png',
       category: 'web_design',
+    },
+    {
+      title: 'Portfolio Fotografico',
+      subtitle: 'Ver Detalle',
+      href: '/portfolio/portfolio-details',
+      src: '/images/cap18.png',
+      category: 'cv',
     },
   ];
   const categoryMenu = [
     {
-      title: 'Web Design',
+      title: 'Diseño Web',
       category: 'web_design',
     },
     {
-      title: 'UI/UX Design',
-      category: 'ui_ux_design',
+      title: 'Restaurantes',
+      category: 'food',
     },
     {
-      title: 'Mobile Apps',
-      category: 'mobile_apps',
-    },
-    {
-      title: 'Logo Design',
-      category: 'logo_design',
+      title: 'Portfolio',
+      category: 'cv',
     },
   ];
   return (
@@ -118,7 +100,7 @@ export default function PortfolioPage() {
         <Spacing lg="145" md="80" />
         <Div className="container">
           <Div className="cs-portfolio_1_heading">
-            <SectionHeading title="Some recent work" subtitle="Our Portfolio" />
+            <SectionHeading title="Algunas ideas" subtitle="Nuestro Portfolio" />
             <Div className="cs-filter_menu cs-style1">
               <ul className="cs-mp0 cs-center">
                 <li className={active === 'all' ? 'active' : ''}>
@@ -141,15 +123,13 @@ export default function PortfolioPage() {
           <Div className="row">
             {portfolioData.slice(0, itemShow).map((item, index) => (
               <Div
-                className={`${
-                  index === 3 || index === 6 ? 'col-lg-8' : 'col-lg-4'
-                } ${
-                  active === 'all'
+                className={`${index === 3 || index === 6 ? 'col-lg-8' : 'col-lg-4'
+                  } ${active === 'all'
                     ? ''
                     : !(active === item.category)
-                    ? 'd-none'
-                    : ''
-                }`}
+                      ? 'd-none'
+                      : ''
+                  }`}
                 key={index}
               >
                 <Portfolio
@@ -174,7 +154,7 @@ export default function PortfolioPage() {
                   className="cs-text_btn"
                   onClick={() => setItemShow(itemShow + 3)}
                 >
-                  <span>Load More</span>
+                  <span>Ver mas</span>
                   <Icon icon="bi:arrow-right" />
                 </span>
               </>

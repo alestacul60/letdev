@@ -55,32 +55,21 @@ export default function MarketingAgency() {
       <Layout>
         {/* Start Hero Section */}
         <Hero5
-          title="Grow Your Business<br /> With Digital Strategy"
-          subtitle="We deliver best problem solving solution for our client and provide finest finishing product in present and upcoming future."
+          title="Haga crecer su negocio<br /> con una estrategia digital"
+          subtitle="Brindamos la mejor solución de resolución de problemas para nuestros clientes y brindamos el mejor producto en el presente y el futuro."
           btnLink="contact"
-          btnText="Let’s talk"
-          socialLinksHeading="Follow Us"
+          btnText="Hablemos"
+          socialLinksHeading="Seguinos"
           heroSocialLinks={heroSocialLinks}
         />
         {/* End Hero Section */}
-
-        {/* Start Video Block Section */}
-        <Div className="cs-video_block_1_wrap">
-          <Div className="container">
-            <VideoModal
-              videoSrc="https://www.youtube.com/watch?v=VcaAVWtP48A"
-              bgUrl="/images/video_bg_2.jpeg"
-            />
-          </Div>
-        </Div>
-        {/* End Video Block Section */}
 
         {/* Start Services Section */}
         <Spacing lg="145" md="80" />
         <Div className="container">
           <SectionHeading
-            title="Our core services"
-            subtitle="Services"
+            title="Nuestros Principales Servicios"
+            subtitle="Servicios"
             variant="cs-style1 text-center"
           />
           <Spacing lg="70" md="45" />
@@ -92,86 +81,25 @@ export default function MarketingAgency() {
         <Spacing lg="120" md="50" />
         <Div className="container">
           <h2 className="cs-font_50 cs-m0 cs-line_height_4">
-            Our agile process is ability to adapt and respond to change. Agile
-            organizations view change as an opportunity, not a threat.
+            Nuestro proceso ágil es la capacidad de adaptarse y responder al cambio.
           </h2>
         </Div>
         <Spacing lg="90" md="70" />
         <PortfolioSlider2 />
         {/* End PortfolioSlider Section */}
 
-        {/* Start FunFact Section */}
-        <Spacing lg="150" md="80" />
-        <Div className="container">
-          <FunFact2
-            data={funfaceData}
-            variant="cs-no_shadow"
-            bgUrl="/images/funfact_shape_bg.svg"
-          />
-        </Div>
-        {/* End FunFact Section */}
-
-        {/* Start Pricing Section */}
-        <Spacing lg="145" md="80" />
-        <Div className="container">
-          <SectionHeading
-            title="Providing best <br/>pricing for client"
-            subtitle="Pricing & Packaging"
-          />
-          <Spacing lg="85" md="40" />
-          <PricingTableList />
-        </Div>
-        <Spacing lg="125" md="55" />
-        {/* End Pricing Section */}
-
-        {/* Start Testimonial Section */}
-        <TestimonialSlider />
-        {/* End Testimonial Section */}
-
-        {/* Start Blog Section */}
-        <Spacing lg="150" md="80" />
-        <Div className="cs-shape_wrap_4">
-          <Div className="cs-shape_4"></Div>
-          <Div className="cs-shape_4"></Div>
-          <Div className="container">
-            <Div className="row">
-              <Div className="col-xl-4">
-                <SectionHeading
-                  title="Explore recent publication"
-                  subtitle="Our Blog"
-                  btnText="View More Blog"
-                  btnLink="/blog"
-                />
-                <Spacing lg="90" md="45" />
-              </Div>
-              <Div className="col-xl-7 offset-xl-1">
-                <Div className="cs-half_of_full_width">
-                  <PostSlider />
-                </Div>
-              </Div>
-            </Div>
-          </Div>
-        </Div>
-        {/* End Blog Section */}
 
         {/* Start MovingText Section */}
         <Spacing lg="125" md="70" />
-        <MovingText text="Santi traga leche" />
+        <MovingText text="Las soluciones que buscas en un solo lugar" />
         <Spacing lg="100" md="70" />
         {/* End MovingText Section */}
-
-        {/* Start LogoList Section */}
-        <Div className="container">
-          <LogoList />
-        </Div>
-        <Spacing lg="130" md="80" />
-        {/* End LogoList Section */}
 
         {/* Start CTA Section */}
         <Div className="container">
           <Cta
-            title="Let’s disscuse make <br />something <i>cool</i> together"
-            btnText="Apply For Meeting"
+            title="Tenes un proyecto <br />en <i>mente</i> ?"
+            btnText="Solicita una reunion"
             btnLink="/contact"
             bgSrc="/images/cta_bg_3.jpeg"
           />

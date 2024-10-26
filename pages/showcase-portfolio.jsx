@@ -17,23 +17,18 @@ export default function ShowcasePortfolio() {
 
   const showcaseData = [
     {
-      title: 'Think reality <br/>do positive',
-      imgUrl: '/images/slider_1.jpeg',
+      title: 'Soluciones modernas <br/>e innovadoras para empresas',
+      imgUrl: '/images/cta_bg_3.jpeg',
       href: '/case-study-details',
     },
     {
-      title: 'Think reality <br/>do positive',
-      imgUrl: '/images/slider_2.jpeg',
+      title: 'Innovación y practicidad <br/>en un solo lugar',
+      imgUrl: '/images/case_study_1.jpeg',
       href: '/case-study-details',
     },
     {
-      title: 'Think reality <br/>do positive',
-      imgUrl: '/images/slider_3.jpeg',
-      href: '/case-study-details',
-    },
-    {
-      title: 'Think reality <br/>do positive',
-      imgUrl: '/images/slider_4.jpeg',
+      title: 'Soluciones eficientes <br/>para la gestion empresarial',
+      imgUrl: '/images/case_study_2.jpeg',
       href: '/case-study-details',
     },
   ];
@@ -47,7 +42,7 @@ export default function ShowcasePortfolio() {
       <Layout>
         <Hero6
           heroSocialLinks={heroSocialLinks}
-          socialLinksHeading="Follow Us"
+          socialLinksHeading="Seguinos"
           showcaseData={showcaseData}
         />
       </Layout>

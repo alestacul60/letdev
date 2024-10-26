@@ -9,8 +9,8 @@ export default function TeamSlider() {
   const teamData = [
     {
       memberImage: '/images/member_1.jpeg',
-      memberName: 'Melon Bulgery',
-      memberDesignation: 'Product Designer',
+      memberName: 'Alejandro Stacul',
+      memberDesignation: 'Desarrollador de Software',
       memberSocial: {
         linkedin: '/',
         twitter: '/',
@@ -20,8 +20,8 @@ export default function TeamSlider() {
     },
     {
       memberImage: '/images/member_2.jpeg',
-      memberName: 'Olinaz Fushi',
-      memberDesignation: 'Product Designer',
+      memberName: 'Santiago Derrier',
+      memberDesignation: 'Administracion',
       memberSocial: {
         linkedin: '/',
         twitter: '/',
@@ -31,8 +31,8 @@ export default function TeamSlider() {
     },
     {
       memberImage: '/images/member_3.jpeg',
-      memberName: 'David Elone',
-      memberDesignation: 'React Developer',
+      memberName: 'Ignacio Falabella',
+      memberDesignation: 'Desarrollador de Software',
       memberSocial: {
         linkedin: '/',
         twitter: '/',
@@ -42,8 +42,8 @@ export default function TeamSlider() {
     },
     {
       memberImage: '/images/member_4.jpeg',
-      memberName: 'Melina Opole',
-      memberDesignation: 'WP Developer',
+      memberName: 'Gianna Vanoni',
+      memberDesignation: 'Marketing',
       memberSocial: {
         linkedin: '/',
         twitter: '/',
@@ -53,8 +53,19 @@ export default function TeamSlider() {
     },
     {
       memberImage: '/images/member_1.jpeg',
-      memberName: 'Melon Bulgery',
-      memberDesignation: 'Product Designer',
+      memberName: 'Ana Paula Pucheta',
+      memberDesignation: 'Diseño Grafico',
+      memberSocial: {
+        linkedin: '/',
+        twitter: '/',
+        youtube: '/',
+        facebook: '/',
+      },
+    },
+    {
+      memberImage: '/images/member_1.jpeg',
+      memberName: 'Tatiana Rios',
+      memberDesignation: 'Gestion de Proyectos',
       memberSocial: {
         linkedin: '/',
         twitter: '/',

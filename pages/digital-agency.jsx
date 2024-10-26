@@ -48,96 +48,89 @@ export default function DigitalAgency() {
   ];
   const serviceData1 = [
     {
-      title: 'UI/UX Design',
+      title: 'Diseño UI/UX',
       href: '/service/service-details',
     },
     {
-      title: 'Marketing',
+      title: 'Marketing Digital',
       href: '/service/service-details',
     },
     {
-      title: 'Branding',
+      title: 'Diseño Grafico',
       href: '/service/service-details',
     },
   ];
   const serviceData2 = [
     {
-      title: 'SEO',
+      title: 'Desarrollo de API',
       href: '/service/service-details',
     },
     {
-      title: 'App design',
+      title: 'Desarrollo de Software',
       href: '/service/service-details',
     },
     {
-      title: 'React Developer',
+      title: 'Desarrollo Web',
       href: '/service/service-details',
     },
   ];
   const portfolioData = [
     {
-      title: 'Colorful Art Work',
-      subtitle: 'See Details',
+      title: 'Sitio Minimalista',
+      subtitle: 'Ver Detalle',
       href: '/portfolio/portfolio-details',
-      src: '/images/portfolio_11.jpeg',
-      category: 'ui_ux_design',
+      src: '/images/cap1.png',
+      category: 'portfolio'
     },
     {
-      title: 'Colorful Art Work',
-      subtitle: 'See Details',
+      title: 'Restaurante',
+      subtitle: 'Ver Detalle',
       href: '/portfolio/portfolio-details',
-      src: '/images/portfolio_12.jpeg',
-      category: 'logo_design',
+      src: '/images/cap13.png',
+      category: 'portfolio'
     },
     {
-      title: 'Colorful Art Work',
-      subtitle: 'See Details',
+      title: 'Menu',
+      subtitle: 'Ver Detalle',
       href: '/portfolio/portfolio-details',
-      src: '/images/portfolio_13.jpeg',
-      category: 'web_design',
+      src: '/images/cap12.png',
+      category: 'portfolio'
     },
     {
-      title: 'Colorful Art Work',
-      subtitle: 'See Details',
+      title: 'Portfolio',
+      subtitle: 'Ver Detalle',
       href: '/portfolio/portfolio-details',
-      src: '/images/portfolio_14.jpeg',
-      category: 'mobile_apps',
+      src: '/images/cap14.png',
+      category: 'portfolio'
     },
     {
-      title: 'Colorful Art Work',
-      subtitle: 'See Details',
+      title: 'CV Online',
+      subtitle: 'Ver Detalle',
       href: '/portfolio/portfolio-details',
-      src: '/images/portfolio_15.jpeg',
-      category: 'ui_ux_design',
+      src: '/images/cap15.png',
+      category: 'portfolio'
     },
     {
-      title: 'Colorful Art Work',
-      subtitle: 'See Details',
+      title: 'Catalogo',
+      subtitle: 'Ver Detalle',
       href: '/portfolio/portfolio-details',
-      src: '/images/portfolio_16.jpeg',
-      category: 'web_design',
+      src: '/images/cap16.png',
+      category: 'portfolio'
     },
     {
-      title: 'Colorful Art Work',
-      subtitle: 'See Details',
+      title: 'Presentacion',
+      subtitle: 'Ver Detalle',
       href: '/portfolio/portfolio-details',
-      src: '/images/portfolio_11.jpeg',
-      category: 'ui_ux_design',
+      src: '/images/cap17.png',
+      category: 'portfolio'
     },
     {
-      title: 'Colorful Art Work',
-      subtitle: 'See Details',
+      title: 'Portfolio Fotografico',
+      subtitle: 'Ver Detalle',
       href: '/portfolio/portfolio-details',
-      src: '/images/portfolio_12.jpeg',
-      category: 'logo_design',
-    },
-    {
-      title: 'Colorful Art Work',
-      subtitle: 'See Details',
-      href: '/portfolio/portfolio-details',
-      src: '/images/portfolio_13.jpeg',
-      category: 'web_design',
-    },
+      src: '/images/cap18.png',
+      category: 'portfolio'
+    }
   ];
   return (
     <>
@@ -149,32 +142,25 @@ export default function DigitalAgency() {
       <Layout>
         {/* Start Hero Section */}
         <Hero4
-          title="We Are <span>A</span>rino <br />Digital Agency"
-          subtitle="We deliver best problem solving solution for our client and provide finest finishing product in present and upcoming future."
+          title="Somos la agencia <br /> digital <span>LetDev</span>"
+          subtitle="Ofrecemos estrategias personalizadas que impulsan la visibilidad de tu marca y aumentan la interacción con tu audiencia.
+          ¡Potencia tu crecimiento con nosotros!"
           scrollDownId="#service"
-          socialLinksHeading="Follow Us"
+          socialLinksHeading="Seguinos"
           heroSocialLinks={heroSocialLinks}
-          phoneNumber="+044 546664"
-          email="info@arino.com"
+          phoneNumber="+54 341 2104375"
+          email="info@letdev.com.ar"
         />
         {/* End Hero Section */}
 
-        {/* Start Funfact Section */}
-        <Div className="container">
-          <FunFact2
-            data={funfaceData}
-            variant="cs-type1"
-            bgUrl="/images/funfact_shape_bg.svg"
-          />
-        </Div>
-        {/* End Funfact Section */}
+
 
         {/* Start Services Section */}
         <Spacing lg="145" md="80" />
         <Div className="container">
           <SectionHeading
-            title="What we provide"
-            subtitle="Services"
+            title="Que Ofrecemos?"
+            subtitle="Nuestros Servicios"
             variant="cs-style1 text-center"
           />
           <Spacing lg="65" md="45" />
@@ -187,53 +173,23 @@ export default function DigitalAgency() {
         <MovingText2 reverseDirection data={serviceData2} />
         {/* End Moving Text Section */}
 
-        {/* Start About Section */}
-        <Div className="cs-shape_wrap_4">
-          <Div className="cs-shape_4"></Div>
-          <Div className="cs-shape_4"></Div>
-          <Spacing lg="150" md="80" />
-          <Div className="container">
-            <Div className="row">
-              <Div className="col-lg-5 col-xl-4">
-                <SectionHeading
-                  title="Uk’s best digital agency ever"
-                  subtitle="Why Choose Us"
-                  btnText="Learn More"
-                  btnLink="/about"
-                />
-                <Spacing lg="45" md="45" />
-              </Div>
-              <Div className="col-lg-7 offset-xl-1">
-                <Div className="cs-half_screen">
-                  <VideoModal
-                    videoSrc="https://www.youtube.com/watch?v=VcaAVWtP48A"
-                    bgUrl="/images/video_bg.jpeg"
-                    variant="cs-style1 cs-size1"
-                  />
-                </Div>
-              </Div>
-            </Div>
-          </Div>
-        </Div>
-        {/* End About Section */}
 
         {/* Start Projects Section */}
         <Spacing lg="145" md="80" />
         <Div className="container">
           <SectionHeading
-            title="Portfolio to explore"
-            subtitle="Latest Projects"
+            title="Explora nuestro Portfolio"
+            subtitle="Nuestros Proyectos"
             variant="cs-style1 text-center"
           />
           <Spacing lg="90" md="45" />
           <Div className="row">
             {portfolioData.slice(0, itemShow).map((item, index) => (
               <Div
-                className={`${
-                  index === 0 || index === 3 || index === 4
-                    ? 'col-lg-8'
-                    : 'col-lg-4'
-                }`}
+                className={`${index === 0 || index === 3 || index === 4
+                  ? 'col-lg-8'
+                  : 'col-lg-4'
+                  }`}
                 key={index}
               >
                 <Portfolio
@@ -287,53 +243,11 @@ export default function DigitalAgency() {
         <Spacing lg="145" md="80" />
         {/* End Awards Section */}
 
-        {/* Start Testimonial Section */}
-        <TestimonialSlider />
-        {/* End Testimonial Section */}
-
-        {/* Start Blog Section */}
-        <Div className="cs-shape_wrap_4">
-          <Div className="cs-shape_4"></Div>
-          <Div className="cs-shape_4"></Div>
-          <Spacing lg="145" md="80" />
-          <Div className="container">
-            <Div className="row">
-              <Div className="col-lg-5 col-xl-4">
-                <SectionHeading
-                  title="Explore recent publication"
-                  subtitle="Our Blog"
-                  btnText="View More Blog"
-                  btnLink="/blog"
-                />
-                <Spacing lg="45" md="45" />
-              </Div>
-              <Div className="col-lg-7 offset-xl-1">
-                <PostList />
-              </Div>
-            </Div>
-          </Div>
-        </Div>
-        <Spacing lg="145" md="80" />
-        {/* End Blog Section */}
-
-        {/* Start LogoList Section */}
-        <Div className="container">
-          <SectionHeading
-            title="Our reputed partner"
-            subtitle="Top Clients"
-            variant="cs-style1 text-center"
-          />
-          <Spacing lg="70" md="45" />
-          <LogoList />
-        </Div>
-        <Spacing lg="150" md="80" />
-        {/* End LogoList Section */}
-
         {/* Start CTA Section */}
         <Div className="container">
           <Cta
-            title="Let’s disscuse make <br />something <i>cool</i> together"
-            btnText="Apply For Meeting"
+            title="Hagamos algo <br /> <i>genial</i> juntos"
+            btnText="Solicita una reunion"
             btnLink="/contact"
             bgSrc="/images/cta_bg.jpeg"
           />

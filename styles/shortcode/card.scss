@@ -2,14 +2,16 @@
   position: relative;
   border-radius: 15px;
   display: block;
-  
+
   &:hover {
-    filter: drop-shadow(0px 0px 30px rgba(255, 74, 23, 0.5));
+    filter: drop-shadow(0px 0px 30px rgba(91, 26, 175, 0.767));
   }
+
   img {
     width: 100%;
     border-radius: inherit;
   }
+
   .cs-card_overlay {
     position: absolute;
     left: 0;
@@ -20,11 +22,13 @@
     background: #000000;
     opacity: 0.5;
   }
+
   .cs-card_info {
     position: absolute;
     padding: 45px 25px 0;
     top: 0;
     left: 0;
+
     span {
       display: block;
       height: 12px;
@@ -33,6 +37,7 @@
       margin-bottom: 10px;
     }
   }
+
   .cs-card_title {
     font-size: 22px;
     margin: 0;
@@ -44,6 +49,7 @@
   .cs-card.cs-style1 .cs-card_title {
     font-size: 20px;
   }
+
   .cs-card.cs-style1 .cs-card_info {
     padding: 40px 18px 0;
   }
@@ -53,6 +59,7 @@
   .cs-card.cs-style1 .cs-card_title {
     font-size: 24px;
   }
+
   .cs-card.cs-style1 .cs-card_info {
     padding: 40px 30px;
     height: 100%;

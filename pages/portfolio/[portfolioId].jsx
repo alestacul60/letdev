@@ -21,103 +21,66 @@ export default function PortfolioDetails() {
       </Head>
       <Layout>
         <PageHeading
-          title="Portfolio Details"
+          title="Nuestros Proyectos"
           bgSrc="/images/service_hero_bg.jpeg"
           pageLinkText={portfolioId}
         />
-        <Spacing lg="150" md="80" />
+        <Spacing lg="90" md="80" />
         <Div className="container">
-          <img
-            src="/images/portfolio_details_1.jpeg"
-            alt="Details"
-            className="cs-radius_15 w-100"
-          />
-          <Spacing lg="90" md="40" />
           <Div className="row">
             <Div className="col-lg-6">
-              <SectionHeading title="Graffiti wall artwork" subtitle="Creative">
+              <SectionHeading title="Como trabajamos?" subtitle="Nuestro proceso creativo">
                 <Spacing lg="40" md="20" />
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium voltire doloremque laudantium, totam rem aperiam,
-                  eaque ipsa quae ab illo inventore veritatis et quasi
-                  architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                  voluptatem quia voluptas sit aspernatur aut odit aut fugit,
-                  sed quia consequuntur magni dolores eos qui ratione voluptatem
-                  sequi nesciunt.
+                  En nuestro proceso de desarrollo de sitios y software,
+                  el cliente siempre es el centro.
+                  <Spacing lg="10" md="30" />
+                  Comenzamos con una reunión inicial para entender a fondo sus necesidades,
+                  objetivos y expectativas.
+                  <Spacing lg="10" md="30" />
+                  Cada proyecto es único, por lo que nos aseguramos de ofrecer soluciones personalizadas que se adapten perfectamente a su visión.
+                  Trabajamos de manera colaborativa en cada etapa, desde la planificación hasta la implementación,
+                  manteniendo una comunicación clara y constante.
+                  <Spacing lg="10" md="30" />
+                  Nuestro objetivo es no solo entregar un producto final, sino construir una relación de confianza y satisfacción a largo plazo.
                 </p>
-                <Spacing lg="10" md="10" />
-                <p>
-                  Ipsum quia dolor sit amet, consectetur, adipisci velit, sed
-                  quia non numquam eius modi tempora incidunt ut labore et
-                  dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
-                  veniam, quis nostrum exercitationem ullam corporis suscipit.
-                </p>
+
+
               </SectionHeading>
             </Div>
             <Div className="col-lg-5 offset-lg-1">
               <Spacing lg="60" md="40" />
-              <h2 className="cs-font_30 cs-font_26_sm cs-m0">Project Info -</h2>
-              <Spacing lg="50" md="30" />
+              <h2 className="cs-font_30 cs-font_26_sm cs-m0">Nuestro enfoque</h2>
+              <Spacing lg="50" md="30" /><hr />
               <Div className="row">
-                <Div className="col-6">
-                  <h3 className="cs-accent_color cs-font_22 cs-font_18_sm cs-m0">
-                    Category:
-                  </h3>
-                  <p className="cs-m0">Artwork</p>
-                  <Spacing lg="30" md="30" />
-                </Div>
-                <Div className="col-6">
-                  <h3 className="cs-accent_color cs-font_22 cs-font_18_sm cs-m0">
-                    Location:
-                  </h3>
-                  <p className="cs-m0">United Kindom</p>
-                  <Spacing lg="30" md="30" />
-                </Div>
-                <Div className="col-6">
-                  <h3 className="cs-accent_color cs-font_22 cs-font_18_sm cs-m0">
-                    Software:
-                  </h3>
-                  <p className="cs-m0">Adobe Illustrator</p>
-                  <Spacing lg="30" md="30" />
-                </Div>
-                <Div className="col-6">
-                  <h3 className="cs-accent_color cs-font_22 cs-font_18_sm cs-m0">
-                    Dated:
-                  </h3>
-                  <p className="cs-m0">14-Aug-2022</p>
-                  <Spacing lg="30" md="30" />
-                </Div>
-                <Div className="col-6">
-                  <h3 className="cs-accent_color cs-font_22 cs-font_18_sm cs-m0">
-                    Client:
-                  </h3>
-                  <p className="cs-m0">Andreo Bowla</p>
-                  <Spacing lg="30" md="30" />
-                </Div>
+
+                <p>
+                  Nos enfocamos en un proceso ágil que permite ajustar el proyecto conforme avanzamos,
+                  asegurando que cumplimos con las metas del cliente en cada fase.
+                  <Spacing lg="10" md="30" />
+                  Comenzamos con un análisis detallado de sus requerimientos y le brindamos una propuesta clara.
+                  <Spacing lg="10" md="30" />
+                  Durante el desarrollo, dividimos el trabajo en ciclos cortos para recibir retroalimentación continua.
+                  Esto nos permite entregar resultados rápidos y adaptarnos a posibles cambios.
+                  <Spacing lg="10" md="30" />
+                  Además, mantenemos al cliente informado con actualizaciones frecuentes, garantizando total transparencia desde el inicio hasta la entrega final del proyecto.
+                </p>
+
               </Div>
             </Div>
           </Div>
           <Spacing lg="65" md="10" />
           <Div className="cs-page_navigation cs-center">
-            <Div>
-              <Button
-                btnLink="/portfolio/portfolio-details"
-                btnText="Prev Project"
-                variant="cs-type1"
-              />
-            </Div>
-            <Div>
-              <Button
-                btnLink="/portfolio/portfolio-details"
-                btnText="Next Project"
-              />
-            </Div>
+            <img
+              src="/images/project.jpg"
+              alt="Details"
+              className="cs-radius_15 w-100"
+            />
           </Div>
         </Div>
         <Spacing lg="145" md="80" />
         <Cta
-          title="agency@arino.com"
+          title="info@letdev.com.ar"
           bgSrc="/images/cta_bg_2.jpeg"
           variant="rounded-0"
         />

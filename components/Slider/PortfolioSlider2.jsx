@@ -6,53 +6,53 @@ import { Icon } from '@iconify/react';
 export default function PortfolioSlider2() {
   const portfolioData = [
     {
-      title: 'Colorful Art Work',
-      subtitle: 'See Details',
+      title: 'Sitio Minimalista',
+      subtitle: 'Ver Detalle',
       href: '/portfolio/portfolio-details',
-      src: '/images/portfolio_31.jpeg',
+      src: '/images/cap1.png'
     },
     {
-      title: 'Colorful Art Work',
-      subtitle: 'See Details',
+      title: 'Restaurante',
+      subtitle: 'Ver Detalle',
       href: '/portfolio/portfolio-details',
-      src: '/images/portfolio_32.jpeg',
+      src: '/images/cap13.png'
     },
     {
-      title: 'Colorful Art Work',
-      subtitle: 'See Details',
+      title: 'Menu',
+      subtitle: 'Ver Detalle',
       href: '/portfolio/portfolio-details',
-      src: '/images/portfolio_33.jpeg',
+      src: '/images/cap12.png'
     },
     {
-      title: 'Colorful Art Work',
-      subtitle: 'See Details',
+      title: 'Portfolio',
+      subtitle: 'Ver Detalle',
       href: '/portfolio/portfolio-details',
-      src: '/images/portfolio_34.jpeg',
+      src: '/images/cap14.png'
     },
     {
-      title: 'Colorful Art Work',
-      subtitle: 'See Details',
+      title: 'CV Online',
+      subtitle: 'Ver Detalle',
       href: '/portfolio/portfolio-details',
-      src: '/images/portfolio_31.jpeg',
+      src: '/images/cap15.png'
     },
     {
-      title: 'Colorful Art Work',
-      subtitle: 'See Details',
+      title: 'Catalogo',
+      subtitle: 'Ver Detalle',
       href: '/portfolio/portfolio-details',
-      src: '/images/portfolio_32.jpeg',
+      src: '/images/cap16.png'
     },
     {
-      title: 'Colorful Art Work',
-      subtitle: 'See Details',
+      title: 'Presentacion',
+      subtitle: 'Ver Detalle',
       href: '/portfolio/portfolio-details',
-      src: '/images/portfolio_33.jpeg',
+      src: '/images/cap17.png'
     },
     {
-      title: 'Colorful Art Work',
-      subtitle: 'See Details',
+      title: 'Portfolio Fotografico',
+      subtitle: 'Ver Detalle',
       href: '/portfolio/portfolio-details',
-      src: '/images/portfolio_34.jpeg',
-    },
+      src: '/images/cap18.png'
+    }
   ];
 
   /** Slider Settings **/

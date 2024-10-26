@@ -65,7 +65,7 @@ export default function PhotographyAgency() {
         <Hero2
           data={heroData}
           phoneNumber="+044 546664"
-          email="info@arino.com"
+          email="info@letdev.com.ar"
         />
         {/* End Hero Section */}
 
@@ -84,7 +84,7 @@ export default function PhotographyAgency() {
             </Div>
             <Div className="col-lg-6 offset-lg-1">
               <SectionHeading
-                title="We are UK based photography <br/>agency"
+                title="We are Perras based photography <br/>agency"
                 subtitle="About Us"
                 btnText="Learn More"
                 btnLink="/about"
@@ -94,69 +94,6 @@ export default function PhotographyAgency() {
           </Div>
         </Div>
         {/* End About Section */}
-
-        {/* Start Services Section */}
-        <Spacing lg="150" md="80" />
-        <Div>
-          <Div className="container">
-            <Div className="row">
-              <Div className="col-xl-4">
-                <SectionHeading
-                  title="Services we can help you with"
-                  subtitle="What Can We Do"
-                  btnText="See All Services"
-                  btnLink="/service"
-                />
-                <Spacing lg="90" md="45" />
-              </Div>
-              <Div className="col-xl-8">
-                <Div className="row">
-                  <Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
-                  <Div className="col-lg-3 col-sm-6">
-                    <Card
-                      title="UI/UX design"
-                      link="/service/service-details"
-                      src="/images/service_1.jpeg"
-                      alt="Service"
-                    />
-                    <Spacing lg="0" md="30" />
-                  </Div>
-                  <Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
-                  <Div className="col-lg-3 col-sm-6">
-                    <Card
-                      title="React.js Development"
-                      link="/service/service-details"
-                      src="/images/service_2.jpeg"
-                      alt="Service"
-                    />
-                    <Spacing lg="0" md="30" />
-                  </Div>
-                  <Div className="col-lg-3 col-sm-6">
-                    <Card
-                      title="Digital Marketing"
-                      link="/service/service-details"
-                      src="/images/service_3.jpeg"
-                      alt="Service"
-                    />
-                    <Spacing lg="0" md="30" />
-                  </Div>
-                  <Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
-                  <Div className="col-lg-3 col-sm-6">
-                    <Card
-                      title="Technology"
-                      link="/service/service-details"
-                      src="/images/service_4.jpeg"
-                      alt="Service"
-                    />
-                    <Spacing lg="0" md="30" />
-                  </Div>
-                  <Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
-                </Div>
-              </Div>
-            </Div>
-          </Div>
-        </Div>
-        {/* End Services Section */}
 
         {/* Start Gallery Section */}
         <Spacing lg="145" md="80" />
@@ -173,55 +110,20 @@ export default function PhotographyAgency() {
           <Spacing lg="85" md="40" />
           <PricingTableList />
         </Div>
-        <Spacing lg="125" md="55" />
         {/* End Pricing Section */}
 
-        {/* Start Testimonial Section */}
-        <TestimonialSlider />
-        {/* End Testimonial Section */}
 
-        {/* Start Blog Section */}
-        <Spacing lg="150" md="80" />
-        <Div className="cs-shape_wrap_4">
-          <Div className="cs-shape_4"></Div>
-          <Div className="cs-shape_4"></Div>
-          <Div className="container">
-            <Div className="row">
-              <Div className="col-xl-4">
-                <SectionHeading
-                  title="Explore recent publication"
-                  subtitle="Our Blog"
-                  btnText="View More Blog"
-                  btnLink="/blog"
-                />
-                <Spacing lg="90" md="45" />
-              </Div>
-              <Div className="col-xl-7 offset-xl-1">
-                <Div className="cs-half_of_full_width">
-                  <PostSlider />
-                </Div>
-              </Div>
-            </Div>
-          </Div>
-        </Div>
-        {/* End Blog Section */}
 
-        <Spacing lg="140" md="80" />
-        {/* Start FunFact Section */}
-        <Div className="container">
-          <FunFact2 data={funfaceData} variant="cs-type2" />
-        </Div>
-        {/* End FunFact Section */}
+
 
         {/* Start Contact Section */}
         <Spacing lg="140" md="70" />
         <Div className="container">
           <SectionHeading
-            title="Getting touch"
-            subtitle="Contact Us"
+            title="Contacto"
+            subtitle="Contactanos"
             variant="cs-style1 text-center"
           />
-          <Spacing lg="90" md="45" />
         </Div>
         <Div className="cs-gradient_bg_1">
           <Div className="container">
@@ -230,7 +132,7 @@ export default function PhotographyAgency() {
                 <Spacing lg="100" md="80" />
                 <form action="#" className="row">
                   <Div className="col-sm-6">
-                    <label className="cs-primary_color">Full Name*</label>
+                    <label className="cs-primary_color">Nombre*</label>
                     <input type="text" className="cs-form_field" />
                     <Spacing lg="20" md="20" />
                   </Div>
@@ -240,17 +142,17 @@ export default function PhotographyAgency() {
                     <Spacing lg="20" md="20" />
                   </Div>
                   <Div className="col-sm-6">
-                    <label className="cs-primary_color">Project Type*</label>
+                    <label className="cs-primary_color">Tipo de Proyecto*</label>
                     <input type="text" className="cs-form_field" />
                     <Spacing lg="20" md="20" />
                   </Div>
                   <Div className="col-sm-6">
-                    <label className="cs-primary_color">Mobile*</label>
+                    <label className="cs-primary_color">Telefono*</label>
                     <input type="text" className="cs-form_field" />
                     <Spacing lg="20" md="20" />
                   </Div>
                   <Div className="col-sm-12">
-                    <label className="cs-primary_color">Mobile*</label>
+                    <label className="cs-primary_color">Contanos tu idea*</label>
                     <textarea
                       cols="30"
                       rows="7"
@@ -260,7 +162,7 @@ export default function PhotographyAgency() {
                   </Div>
                   <Div className="col-sm-12">
                     <button className="cs-btn cs-style1">
-                      <span>Send Message</span>
+                      <span>Enviar Mensaje</span>
                       <Icon icon="bi:arrow-right" />
                     </button>
                   </Div>
@@ -273,7 +175,7 @@ export default function PhotographyAgency() {
                   data-src="assets/img/map_img_1.jpeg"
                 >
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96652.27317354927!2d-74.33557928194516!3d40.79756494697628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3a82f1352d0dd%3A0x81d4f72c4435aab5!2sTroy+Meadows+Wetlands!5e0!3m2!1sen!2sbd!4v1563075599994!5m2!1sen!2sbd"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96652.27317354927!2d-59.65610308071918!3d-29.154437418554846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjnCsDA5JzE1LjkiUyA1OcKwMzknMjIuMiJX!5e0!3m2!1sen!2sbd!4v1698348408574!5m2!1sen!2sbd"
                     allowFullScreen
                     title="Google Map"
                   />

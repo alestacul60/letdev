@@ -5,33 +5,41 @@ import Div from '../Div';
 export default function ServiceList() {
   const serviceData = [
     {
-      title: 'WP Development',
+      title: 'Desarrollo Web',
       subtitle:
-        'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium lorema doloremque laudantium, totam rem.',
-      imgUrl: '/images/service_7.jpeg',
+        'Creamos sitios web optimizados y personalizados para tu negocio, asegurando rendimiento y experiencia de usuario de primer nivel.',
+      imgUrl: '/images/soft500x500.jpg',
       href: '/service/service-details',
     },
     {
-      title: 'UI/UX Design',
+      title: 'Diseño Gráfico',
       subtitle:
-        'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium lorema doloremque laudantium, totam rem.',
-      imgUrl: '/images/service_8.jpeg',
+        'Diseñamos identidades visuales únicas que transmiten la esencia de tu marca de manera efectiva y atractiva.',
+      imgUrl: '/images/grafico500x500.jpg',
       href: '/service/service-details',
     },
     {
-      title: 'Branding',
+      title: 'Marketing Digital',
       subtitle:
-        'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium lorema doloremque laudantium, totam rem.',
-      imgUrl: '/images/service_9.jpeg',
+        'Implementamos estrategias de marketing digital para incrementar tu presencia online y atraer clientes potenciales.',
+      imgUrl: '/images/marketin500x500.jpg',
       href: '/service/service-details',
     },
     {
-      title: 'Social Ad Campaign',
+      title: 'Desarrollo de Software y APIs',
       subtitle:
-        'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium lorema doloremque laudantium, totam rem.',
-      imgUrl: '/images/service_10.jpeg',
+        'Desarrollamos soluciones de software personalizadas y APIs robustas para facilitar la integración de sistemas y mejorar la eficiencia.',
+      imgUrl: '/images/coding.png',
       href: '/service/service-details',
     },
+    {
+      title: 'Diseño UX/UI',
+      subtitle:
+        'Creamos interfaces intuitivas y atractivas, priorizando la experiencia del usuario y el diseño funcional.',
+      imgUrl: '/images/uxui500x500.jpg',
+      href: '/service/service-details',
+    },
+
   ];
   const [active, setActive] = useState(0);
   const handelActive = index => {

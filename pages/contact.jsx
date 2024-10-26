@@ -20,7 +20,7 @@ export default function Contact() {
         <PageHeading
           title="Contactanos"
           bgSrc="/images/contact_hero_bg.jpeg"
-          pageLinkText="Contact"
+          pageLinkText="Contacto"
         />
         <Spacing lg="150" md="80" />
         <Div className="container">
@@ -57,7 +57,7 @@ export default function Contact() {
                   <Spacing lg="20" md="20" />
                 </Div>
                 <Div className="col-sm-12">
-                  <label className="cs-primary_color">Comentario adicional*</label>
+                  <label className="cs-primary_color">Contanos tu idea*</label>
                   <textarea
                     cols="30"
                     rows="7"
@@ -78,7 +78,7 @@ export default function Contact() {
         <Spacing lg="150" md="80" />
         <Div className="cs-google_map">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96652.27317354927!2d-74.33557928194516!3d40.79756494697628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3a82f1352d0dd%3A0x81d4f72c4435aab5!2sTroy+Meadows+Wetlands!5e0!3m2!1sen!2sbd!4v1563075599994!5m2!1sen!2sbd"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96652.27317354927!2d-59.65610308071918!3d-29.154437418554846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjnCsDA5JzE1LjkiUyA1OcKwMzknMjIuMiJX!5e0!3m2!1sen!2sbd!4v1698348408574!5m2!1sen!2sbd"
             allowFullScreen
             title="Google Map"
           />

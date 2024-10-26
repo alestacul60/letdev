@@ -9,10 +9,10 @@ export default function FullScreenHorizontalSlider({ data }) {
   return (
     <Div className="cs-swiper_arrow_style_1">
       <Div className="swiper-button image-swiper-button-next">
-        Next <Icon icon="bi:arrow-right" />
+        Siguiente <Icon icon="bi:arrow-right" />
       </Div>
       <Div className="swiper-button image-swiper-button-prev">
-        <Icon icon="bi:arrow-left" /> Prev
+        <Icon icon="bi:arrow-left" /> Atras
       </Div>
       <Swiper
         slidesPerView={1}

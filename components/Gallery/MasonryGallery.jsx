@@ -191,13 +191,12 @@ export default function MasonryGallery() {
       <Div className="cs-masonry_4_col">
         {portfolioData.slice(0, itemShow).map((item, index) => (
           <Div
-            className={`${
-              active === 'all'
+            className={`${active === 'all'
                 ? ''
                 : !(active === item.category)
-                ? 'd-none'
-                : ''
-            }`}
+                  ? 'd-none'
+                  : ''
+              }`}
             key={index}
           >
             <Div
@@ -237,7 +236,7 @@ export default function MasonryGallery() {
                 className="cs-text_btn"
                 onClick={() => setItemShow(itemShow + 4)}
               >
-                <span>Load More</span>
+                <span>Ver mas</span>
                 <Icon icon="bi:arrow-right" />
               </span>
             </>

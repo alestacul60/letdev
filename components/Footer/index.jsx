@@ -32,7 +32,7 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
       href: '/service/service-details',
     },
     {
-      title: 'Desarrollo de Software',
+      title: 'Diseño Grafico',
       href: '/service/service-details',
     },
   ];
@@ -60,15 +60,6 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
             <Div className="col-lg-3 col-sm-6">
               <Div className="cs-footer_item">
                 <ContactInfoWidget title="Contactanos" />
-              </Div>
-            </Div>
-            <Div className="col-lg-3 col-sm-6">
-              <Div className="cs-footer_item">
-                <Newsletter
-                  title="Registrate"
-                  subtitle="Solicita una reunion"
-                  placeholder="ejemplo@gmail.com"
-                />
               </Div>
             </Div>
           </Div>
