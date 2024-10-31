@@ -17,56 +17,56 @@ export default function PortfolioPage() {
       title: 'Sitio Minimalista',
       subtitle: 'Ver Detalle',
       href: '/portfolio/portfolio-details',
-      src: '/images/cap1.png',
+      src: '/images/cap1.PNG',
       category: 'web_design',
     },
     {
       title: 'Restaurante',
       subtitle: 'Ver Detalle',
       href: '/portfolio/portfolio-details',
-      src: '/images/cap13.png',
+      src: '/images/cap13.PNG',
       category: 'food',
     },
     {
       title: 'Menu',
       subtitle: 'Ver Detalle',
       href: '/portfolio/portfolio-details',
-      src: '/images/cap12.png',
+      src: '/images/cap12.PNG',
       category: 'food',
     },
     {
       title: 'Portfolio',
       subtitle: 'Ver Detalle',
       href: '/portfolio/portfolio-details',
-      src: '/images/cap14.png',
+      src: '/images/cap14.PNG',
       category: 'cv',
     },
     {
       title: 'CV Online',
       subtitle: 'Ver Detalle',
       href: '/portfolio/portfolio-details',
-      src: '/images/cap15.png',
+      src: '/images/cap15.PNG',
       category: 'cv',
     },
     {
       title: 'Catalogo',
       subtitle: 'Ver Detalle',
       href: '/portfolio/portfolio-details',
-      src: '/images/cap16.png',
+      src: '/images/cap16.PNG',
       category: 'web_design',
     },
     {
       title: 'Presentacion',
       subtitle: 'Ver Detalle',
       href: '/portfolio/portfolio-details',
-      src: '/images/cap17.png',
+      src: '/images/cap17.PNG',
       category: 'web_design',
     },
     {
       title: 'Portfolio Fotografico',
       subtitle: 'Ver Detalle',
       href: '/portfolio/portfolio-details',
-      src: '/images/cap18.png',
+      src: '/images/cap18.PNG',
       category: 'cv',
     },
   ];
@@ -104,7 +104,7 @@ export default function PortfolioPage() {
             <Div className="cs-filter_menu cs-style1">
               <ul className="cs-mp0 cs-center">
                 <li className={active === 'all' ? 'active' : ''}>
-                  <span onClick={() => setActive('all')}>All</span>
+                  <span onClick={() => setActive('all')}>Todo</span>
                 </li>
                 {categoryMenu.map((item, index) => (
                   <li
@@ -163,7 +163,7 @@ export default function PortfolioPage() {
         </Div>
         <Spacing lg="145" md="80" />
         <Cta
-          title="agency@arino.com"
+          title="info@letdev.com.ar"
           bgSrc="/images/cta_bg_2.jpeg"
           variant="rounded-0"
         />

@@ -142,7 +142,7 @@ export default function DigitalAgency() {
       <Layout>
         {/* Start Hero Section */}
         <Hero4
-          title="Somos la agencia <br /> digital <span>LetDev</span>"
+          title="Somos una agencia <br /> <span>digital </span>"
           subtitle="Ofrecemos estrategias personalizadas que impulsan la visibilidad de tu marca y aumentan la interacción con tu audiencia.
           ¡Potencia tu crecimiento con nosotros!"
           scrollDownId="#service"

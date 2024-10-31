@@ -17,22 +17,22 @@ export default function PhotographyAgency() {
     {
       title: 'Diseños',
       imageUrl: './images/WEB-2.png',
-      href: '/service/service-details',
+      href: '/about',
     },
     {
       title: 'Web',
       imageUrl: './images/fashion.jpeg',
-      href: '/service/service-details',
+      href: '/about',
     },
     {
       title: 'Branding',
       imageUrl: './images/commercial.jpeg',
-      href: '/service/service-details',
+      href: '/about',
     },
     {
       title: 'Logos',
       imageUrl: './images/landscape.jpeg',
-      href: '/service/service-details',
+      href: '/about',
     },
   ];
   const funfaceData = [
