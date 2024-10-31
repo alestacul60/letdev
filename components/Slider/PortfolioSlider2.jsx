@@ -9,49 +9,49 @@ export default function PortfolioSlider2() {
       title: 'Sitio Minimalista',
       subtitle: 'Ver Detalle',
       href: '/portfolio/portfolio-details',
-      src: '/images/cap1.png'
+      src: '/images/cap1.PNG'
     },
     {
       title: 'Restaurante',
       subtitle: 'Ver Detalle',
       href: '/portfolio/portfolio-details',
-      src: '/images/cap13.png'
+      src: '/images/cap13.PNG'
     },
     {
       title: 'Menu',
       subtitle: 'Ver Detalle',
       href: '/portfolio/portfolio-details',
-      src: '/images/cap12.png'
+      src: '/images/cap12.PNG'
     },
     {
       title: 'Portfolio',
       subtitle: 'Ver Detalle',
       href: '/portfolio/portfolio-details',
-      src: '/images/cap14.png'
+      src: '/images/cap14.PNG'
     },
     {
       title: 'CV Online',
       subtitle: 'Ver Detalle',
       href: '/portfolio/portfolio-details',
-      src: '/images/cap15.png'
+      src: '/images/cap15.PNG'
     },
     {
       title: 'Catalogo',
       subtitle: 'Ver Detalle',
       href: '/portfolio/portfolio-details',
-      src: '/images/cap16.png'
+      src: '/images/cap16.PNG'
     },
     {
       title: 'Presentacion',
       subtitle: 'Ver Detalle',
       href: '/portfolio/portfolio-details',
-      src: '/images/cap17.png'
+      src: '/images/cap17.PNG'
     },
     {
       title: 'Portfolio Fotografico',
       subtitle: 'Ver Detalle',
       href: '/portfolio/portfolio-details',
-      src: '/images/cap18.png'
+      src: '/images/cap18.PNG'
     }
   ];
 

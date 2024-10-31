@@ -29,7 +29,7 @@ export default function CreativePortfolio() {
       subtitle: 'Proyecto 01',
       btnText: 'Ver Detalles',
       btnLink: '/portfolio/portfolio-details',
-      imageUrl: '/images/cap16.png',
+      imageUrl: '/images/cap16.PNG',
       category: 'Desarrollo Web',
     },
     {

@@ -79,56 +79,56 @@ export default function DigitalAgency() {
       title: 'Sitio Minimalista',
       subtitle: 'Ver Detalle',
       href: '/portfolio/portfolio-details',
-      src: '/images/cap1.png',
+      src: '/images/cap1.PNG',
       category: 'portfolio'
     },
     {
       title: 'Restaurante',
       subtitle: 'Ver Detalle',
       href: '/portfolio/portfolio-details',
-      src: '/images/cap13.png',
+      src: '/images/cap13.PNG',
       category: 'portfolio'
     },
     {
       title: 'Menu',
       subtitle: 'Ver Detalle',
       href: '/portfolio/portfolio-details',
-      src: '/images/cap12.png',
+      src: '/images/cap12.PNG',
       category: 'portfolio'
     },
     {
       title: 'Portfolio',
       subtitle: 'Ver Detalle',
       href: '/portfolio/portfolio-details',
-      src: '/images/cap14.png',
+      src: '/images/cap14.PNG',
       category: 'portfolio'
     },
     {
       title: 'CV Online',
       subtitle: 'Ver Detalle',
       href: '/portfolio/portfolio-details',
-      src: '/images/cap15.png',
+      src: '/images/cap15.PNG',
       category: 'portfolio'
     },
     {
       title: 'Catalogo',
       subtitle: 'Ver Detalle',
       href: '/portfolio/portfolio-details',
-      src: '/images/cap16.png',
+      src: '/images/cap16.PNG',
       category: 'portfolio'
     },
     {
       title: 'Presentacion',
       subtitle: 'Ver Detalle',
       href: '/portfolio/portfolio-details',
-      src: '/images/cap17.png',
+      src: '/images/cap17.PNG',
       category: 'portfolio'
     },
     {
       title: 'Portfolio Fotografico',
       subtitle: 'Ver Detalle',
       href: '/portfolio/portfolio-details',
-      src: '/images/cap18.png',
+      src: '/images/cap18.PNG',
       category: 'portfolio'
     }
   ];
