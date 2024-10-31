@@ -5,16 +5,10 @@ import Div from '../components/Div';
 import FunFact from '../components/FunFact';
 import Hero from '../components/Hero';
 import Layout from '../components/Layout';
-import LogoList from '../components/LogoList';
 import MovingText from '../components/MovingText';
 import SectionHeading from '../components/SectionHeading';
 import PortfolioSlider from '../components/Slider/PortfolioSlider';
-import PostSlider from '../components/Slider/PostSlider';
-import TeamSlider from '../components/Slider/TeamSlider';
-import TestimonialSlider from '../components/Slider/TestimonialSlider';
-import TimelineSlider from '../components/Slider/TimelineSlider';
 import Spacing from '../components/Spacing';
-import VideoModal from '../components/VideoModal';
 
 export default function Home() {
   // Hero Social Links
@@ -66,7 +60,7 @@ export default function Home() {
           scrollDownId="#service"
           socialLinksHeading="Seguinos"
           heroSocialLinks={heroSocialLinks}
-          bgImageUrl="/images/hero_bg.jpg"
+          bgImageUrl="/images/WEB.png"
         />
         {/* End Hero Section */}
 
@@ -176,14 +170,11 @@ export default function Home() {
             Nuestro proceso ágil nos permite adaptarnos y responder rápidamente al cambio.</h2>
 
           <Spacing lg="70" md="70" />
-          <VideoModal
-            videoSrc="https://www.youtube.com/watch?v=JzRUbdqa_hU&list=PLp2zTInxCVPSO4f1RxgVnUUTgnarc8f2e&index=9"
-            bgUrl="/images/cap2.png"
-          />
+
         </Div>
         {/* End Video Block Section */}
 
-        {/* Start Team Section */}
+        {/* Start Team Section 
         <Spacing lg="145" md="80" />
         <Div className="container">
           <SectionHeading
@@ -195,7 +186,7 @@ export default function Home() {
           <TeamSlider />
         </Div>
         <Spacing lg="150" md="80" />
-        {/* End Team Section */}
+         End Team Section */}
 
         {/* Start Testimonial Section */}
 

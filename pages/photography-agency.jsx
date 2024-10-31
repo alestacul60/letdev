@@ -15,22 +15,22 @@ import Spacing from '../components/Spacing';
 export default function PhotographyAgency() {
   const heroData = [
     {
-      title: 'Wedding',
-      imageUrl: './images/wedding.jpeg',
+      title: 'Diseños',
+      imageUrl: './images/WEB-2.png',
       href: '/service/service-details',
     },
     {
-      title: 'Fashion',
+      title: 'Web',
       imageUrl: './images/fashion.jpeg',
       href: '/service/service-details',
     },
     {
-      title: 'Commercial',
+      title: 'Branding',
       imageUrl: './images/commercial.jpeg',
       href: '/service/service-details',
     },
     {
-      title: 'Landscape',
+      title: 'Logos',
       imageUrl: './images/landscape.jpeg',
       href: '/service/service-details',
     },
@@ -64,7 +64,7 @@ export default function PhotographyAgency() {
         {/* Start Hero Section */}
         <Hero2
           data={heroData}
-          phoneNumber="+044 546664"
+          phoneNumber="+54 341-2104375"
           email="info@letdev.com.ar"
         />
         {/* End Hero Section */}
@@ -76,7 +76,7 @@ export default function PhotographyAgency() {
             <Div className="col-lg-5">
               <Div className="cs-radius_15 cs-shine_hover_1">
                 <img
-                  src="/images/about_img_5.jpeg"
+                  src="/images/FOTO.png"
                   alt="About"
                   className="cs-w100 cs-radius_5"
                 />
@@ -84,9 +84,9 @@ export default function PhotographyAgency() {
             </Div>
             <Div className="col-lg-6 offset-lg-1">
               <SectionHeading
-                title="We are Perras based photography <br/>agency"
+                title="Somos una agencia <br/>que quiere ver crecer tu empresa"
                 subtitle="About Us"
-                btnText="Learn More"
+                btnText="Ver Mas"
                 btnLink="/about"
               />
               <Spacing lg="0" md="40" />
@@ -100,7 +100,7 @@ export default function PhotographyAgency() {
         <MasonryGallery />
         {/* End Gallery Section */}
 
-        {/* Start Pricing Section */}
+        {/* Start Pricing Section 
         <Spacing lg="140" md="70" />
         <Div className="container">
           <SectionHeading
@@ -118,15 +118,15 @@ export default function PhotographyAgency() {
 
         {/* Start Contact Section */}
         <Spacing lg="140" md="70" />
-        <Div className="container">
-          <SectionHeading
-            title="Contacto"
-            subtitle="Contactanos"
-            variant="cs-style1 text-center"
-          />
-        </Div>
         <Div className="cs-gradient_bg_1">
           <Div className="container">
+            <Spacing lg="70" md="70" />
+            <SectionHeading
+              title="Contacto"
+              subtitle="Contactanos"
+              variant="cs-style1 text-center"
+            />
+            <Spacing lg="70" md="70" />
             <Div className="row">
               <Div className="col-xl-5 col-lg-6">
                 <Spacing lg="100" md="80" />

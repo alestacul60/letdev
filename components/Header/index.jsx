@@ -86,14 +86,14 @@ export default function Header({ variant }) {
                               Showcase
                             </Link>
                           </li>
-                          <li>
+                          {/*<li>
                             <Link
                               href="case-study-showcase"
                               onClick={() => setMobileToggle(false)}
                             >
                               Casos de estudio
-                            </Link>
-                          </li>
+                            </Link> 
+                          </li>*/}
                         </ul>
                       </DropDown>
                     </li>
@@ -102,7 +102,7 @@ export default function Header({ variant }) {
                         Acerca de
                       </Link>
                     </li>
-                    <li className="menu-item-has-children">
+                    {/*<li className="menu-item-has-children">
                       <Link
                         href="/service"
                         onClick={() => setMobileToggle(false)}
@@ -121,7 +121,7 @@ export default function Header({ variant }) {
                           </li>
                         </ul>
                       </DropDown>
-                    </li>
+                    </li>*/}
                     <li className="menu-item-has-children">
                       <Link
                         href="/portfolio"

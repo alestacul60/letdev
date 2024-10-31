@@ -214,34 +214,17 @@ export default function DigitalAgency() {
                   className="cs-text_btn"
                   onClick={() => setItemShow(itemShow + 3)}
                 >
-                  <span>Load More</span>
+                  <span>Ver Mas</span>
                   <Icon icon="bi:arrow-right" />
                 </span>
+                <Spacing lg="25" md="25" />
               </>
             )}
           </Div>
         </Div>
         {/* End Projects Section */}
 
-        {/* Start Awards Section */}
-        <Spacing lg="140" md="80" />
-        <Div className="container">
-          <Div className="row">
-            <Div className="col-xl-4">
-              <SectionHeading
-                title="We get multiple awards"
-                subtitle="Our Awards"
-                variant="cs-style1"
-              />
-              <Spacing lg="90" md="45" />
-            </Div>
-            <Div className="col-xl-7 offset-xl-1">
-              <TimelineSlider />
-            </Div>
-          </Div>
-        </Div>
-        <Spacing lg="145" md="80" />
-        {/* End Awards Section */}
+
 
         {/* Start CTA Section */}
         <Div className="container">
