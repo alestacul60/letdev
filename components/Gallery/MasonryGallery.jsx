@@ -139,28 +139,28 @@ export default function MasonryGallery() {
   ];
   const categoryMenu = [
     {
-      title: 'Wedding',
-      category: 'wedding',
+      title: 'Logos',
+      category: 'logos',
     },
     {
-      title: 'Portrait',
-      category: 'portrait',
+      title: 'Tarjeteria',
+      category: 'tarjeteria',
     },
     {
-      title: 'Fashion',
-      category: 'fashion',
+      title: 'Mockup',
+      category: 'mockup',
     },
     {
-      title: 'Commercial',
-      category: 'commercial',
+      title: 'Web',
+      category: 'web',
     },
     {
-      title: 'Landscape',
-      category: 'landscape',
+      title: 'Branding',
+      category: 'branding',
     },
     {
-      title: 'Short film',
-      category: 'shortfilm',
+      title: 'Diseños',
+      category: 'creativo',
     },
   ];
   return (
@@ -192,10 +192,10 @@ export default function MasonryGallery() {
         {portfolioData.slice(0, itemShow).map((item, index) => (
           <Div
             className={`${active === 'all'
-                ? ''
-                : !(active === item.category)
-                  ? 'd-none'
-                  : ''
+              ? ''
+              : !(active === item.category)
+                ? 'd-none'
+                : ''
               }`}
             key={index}
           >
