@@ -60,7 +60,7 @@ export default function Home() {
           scrollDownId="#service"
           socialLinksHeading="Seguinos"
           heroSocialLinks={heroSocialLinks}
-          bgImageUrl="/images/principal.png"
+          bgImageUrl="/images/principal2.png"
         />
         {/* End Hero Section */}
 
