@@ -11,12 +11,12 @@ export default function MasonryGallery() {
 
   const portfolioData = [
     {
-      title: 'Colorful Art Work',
-      subtitle: 'View Large',
-      href: '/portfolio/portfolio-details',
-      src: '/images/portfolio_21.jpeg',
-      srcLg: '/images/portfolio_21_lg.jpeg',
-      category: 'wedding',
+      title: 'Harekr',
+      subtitle: 'Ver',
+      href: 'https://harekr.com.ar',
+      src: '/images/logo.png',
+      srcLg: '/images/logo.png',
+      category: 'logos',
       height: 299,
     },
     {
@@ -167,7 +167,7 @@ export default function MasonryGallery() {
     <>
       <Div className="container">
         <Div className="cs-portfolio_1_heading">
-          <SectionHeading title="Some recent work" subtitle="Our Portfolio" />
+          <SectionHeading title="Algunas ideas" subtitle="Nuestro Portfolio" />
           <Div className="cs-filter_menu cs-style1">
             <ul className="cs-mp0 cs-center">
               <li className={active === 'all' ? 'active' : ''}>
