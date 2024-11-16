@@ -21,17 +21,17 @@ export default function PhotographyAgency() {
     },
     {
       title: 'Web',
-      imageUrl: './images/fashion.jpeg',
+      imageUrl: './images/webfinal.jpg',
       href: '',
     },
     {
       title: 'Branding',
-      imageUrl: './images/commercial.jpeg',
+      imageUrl: './images/branding.jpg',
       href: '',
     },
     {
       title: 'Logos',
-      imageUrl: './images/landscape.jpeg',
+      imageUrl: './images/logosindex.jpg',
       href: '',
     },
   ];
