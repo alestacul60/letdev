@@ -1,11 +1,11 @@
 {
-  "/_error": "pages/_error.js",
   "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
   "/about": "pages/about.html",
   "/api/sendEmail": "pages/api/sendEmail.js",
-  "/blog/[blogId]": "pages/blog/[blogId].html",
   "/blog-details": "pages/blog-details.html",
   "/blog": "pages/blog.html",
+  "/blog/[blogId]": "pages/blog/[blogId].html",
   "/case-study-details": "pages/case-study-details.html",
   "/case-study-showcase": "pages/case-study-showcase.html",
   "/contact": "pages/contact.html",
