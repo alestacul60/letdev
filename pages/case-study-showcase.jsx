@@ -6,12 +6,12 @@ import Layout from '../components/Layout';
 export default function CaseStudyShowcase() {
   const heroSocialLinks = [
     {
-      name: 'Behance',
-      links: '/',
+      name: 'Instagram',
+      links: 'https://www.instagram.com/letdev.ar/',
     },
     {
-      name: 'Twitter',
-      links: '/',
+      name: 'LinkedIn',
+      links: 'https://www.linkedin.com/company/letdev-ar/',
     },
   ];
 

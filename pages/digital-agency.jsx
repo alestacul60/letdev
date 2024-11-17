@@ -20,12 +20,12 @@ export default function DigitalAgency() {
   const [itemShow, setItemShow] = useState(6);
   const heroSocialLinks = [
     {
-      name: 'Behance',
-      links: '/',
+      name: 'Instagram',
+      links: 'https://www.instagram.com/letdev.ar/',
     },
     {
-      name: 'Twitter',
-      links: '/',
+      name: 'LinkedIn',
+      links: 'https://www.linkedin.com/company/letdev-ar/',
     },
   ];
   const funfaceData = [

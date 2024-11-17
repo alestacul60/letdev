@@ -15,7 +15,6 @@ export default function PageHeading({ title, bgSrc, pageLinkText }) {
             <li className="breadcrumb-item">
               <Link href="/">Home</Link>
             </li>
-            <li className="breadcrumb-item active">{pageLinkText}</li>
           </ol>
         </Div>
       </Div>

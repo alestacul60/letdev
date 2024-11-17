@@ -97,11 +97,7 @@ export default function Header({ variant }) {
                         </ul>
                       </DropDown>
                     </li>
-                    <li>
-                      <Link href="about" onClick={() => setMobileToggle(false)}>
-                        Acerca de
-                      </Link>
-                    </li>
+
                     {/*<li className="menu-item-has-children">
                       <Link
                         href="/service"

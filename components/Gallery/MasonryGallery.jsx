@@ -137,7 +137,7 @@ export default function MasonryGallery() {
           <Div className="cs-filter_menu cs-style1">
             <ul className="cs-mp0 cs-center">
               <li className={active === 'all' ? 'active' : ''}>
-                <span onClick={() => setActive('all')}>All</span>
+                <span onClick={() => setActive('all')}>Todo</span>
               </li>
               {categoryMenu.map((item, index) => (
                 <li

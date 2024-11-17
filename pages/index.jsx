@@ -15,11 +15,11 @@ export default function Home() {
   const heroSocialLinks = [
     {
       name: 'Instagram',
-      links: '/',
+      links: 'https://www.instagram.com/letdev.ar/',
     },
     {
       name: 'LinkedIn',
-      links: '/',
+      links: 'https://www.linkedin.com/company/letdev-ar/',
     },
   ];
 
