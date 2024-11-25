@@ -142,9 +142,9 @@ export default function DigitalAgency() {
       <Layout>
         {/* Start Hero Section */}
         <Hero4
-          title="Somos una agencia <br /> <span>digital </span>"
+          title="Somos una <br /> <span>agencia digital </span>"
           subtitle="Ofrecemos estrategias personalizadas que impulsan la visibilidad de tu marca y aumentan la interacción con tu audiencia.
-          ¡Potencia tu crecimiento con nosotros!"
+          ¡Potenciá tu crecimiento con nosotros!"
           scrollDownId="#service"
           socialLinksHeading="Seguinos"
           heroSocialLinks={heroSocialLinks}
@@ -159,7 +159,7 @@ export default function DigitalAgency() {
         <Spacing lg="145" md="80" />
         <Div className="container">
           <SectionHeading
-            title="Que Ofrecemos?"
+            title="Qué ofrecemos?"
             subtitle="Nuestros Servicios"
             variant="cs-style1 text-center"
           />

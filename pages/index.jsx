@@ -56,7 +56,7 @@ export default function Home() {
 
         <Hero
           title="LetDev"
-          subtitle="Impulsamos la transformacion digital de empresas mediante soluciones digitales practicas y personalizadas, promoviendo el crecimiento empresarial."
+          subtitle="Impulsamos la transformación digital de empresas mediante soluciones digitales prácticas y personalizadas, promoviendo el crecimiento empresarial."
           btnText="Contactanos"
           btnLink="/contact"
           scrollDownId="#service"
@@ -85,8 +85,8 @@ export default function Home() {
               <Div className="col-xl-4">
                 <SectionHeading
                   title="Nuestros servicios"
-                  subtitle="Que podemos hacer?"
-                  btnText="Ver Todos nuestros servicios"
+                  subtitle="Qué podemos hacer?"
+                  btnText="Ver todos nuestros servicios"
                   btnLink="/service"
                 />
                 <Spacing lg="90" md="45" />
@@ -235,7 +235,7 @@ export default function Home() {
 
         {/* Start MovingText Section */}
         <Spacing lg="125" md="70" />
-        <MovingText text="La solucion que buscas en un solo lugar" />
+        <MovingText text="LA SOLUCION QUE BUSCAS EN UN SOLO LUGAR " />
         <Spacing lg="105" md="70" />
         {/* End MovingText Section */}
 

@@ -91,7 +91,7 @@ export default function MarketingAgency() {
 
         {/* Start MovingText Section */}
         <Spacing lg="125" md="70" />
-        <MovingText text="Las soluciones que buscas en un solo lugar" />
+        <MovingText text="LA SOLUCION QUE BUSCAS EN UN SOLO LUGAR " />
         <Spacing lg="100" md="70" />
         {/* End MovingText Section */}
 

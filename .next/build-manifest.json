@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/XAqUDZz0WQbTKfCaLUi0_/_buildManifest.js",
-    "static/XAqUDZz0WQbTKfCaLUi0_/_ssgManifest.js"
+    "static/LwzJ3H2JJ8ygWqMfi-n7Q/_buildManifest.js",
+    "static/LwzJ3H2JJ8ygWqMfi-n7Q/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -17,7 +17,7 @@
       "static/chunks/810-2cb0ccfd9adb222e.js",
       "static/chunks/66-c8aedb1c7bcfa7a6.js",
       "static/chunks/196-11d24675d65dcc80.js",
-      "static/chunks/pages/index-749d9669148c441b.js"
+      "static/chunks/pages/index-33c56ec155b720b8.js"
     ],
     "/_app": [
       "static/chunks/webpack-6f85eb8e3d9b04d1.js",
@@ -97,7 +97,7 @@
       "static/chunks/810-2cb0ccfd9adb222e.js",
       "static/chunks/66-c8aedb1c7bcfa7a6.js",
       "static/chunks/196-11d24675d65dcc80.js",
-      "static/chunks/pages/creative-portfolio-9076330a0f07be4a.js"
+      "static/chunks/pages/creative-portfolio-26e203bbd1fa5a79.js"
     ],
     "/digital-agency": [
       "static/chunks/webpack-6f85eb8e3d9b04d1.js",
@@ -106,7 +106,7 @@
       "static/chunks/810-2cb0ccfd9adb222e.js",
       "static/chunks/66-c8aedb1c7bcfa7a6.js",
       "static/chunks/196-11d24675d65dcc80.js",
-      "static/chunks/pages/digital-agency-6524e09c7c4b6b9b.js"
+      "static/chunks/pages/digital-agency-c9b969a68cd0cf37.js"
     ],
     "/faq": [
       "static/chunks/webpack-6f85eb8e3d9b04d1.js",
@@ -124,7 +124,7 @@
       "static/chunks/66-c8aedb1c7bcfa7a6.js",
       "static/chunks/196-11d24675d65dcc80.js",
       "static/chunks/802-098e961ffddc9a45.js",
-      "static/chunks/pages/marketing-agency-a8bfb8dbb9d721fa.js"
+      "static/chunks/pages/marketing-agency-227ab08f580e866e.js"
     ],
     "/photography-agency": [
       "static/chunks/webpack-6f85eb8e3d9b04d1.js",
@@ -135,7 +135,7 @@
       "static/chunks/76-05f1ede4d96ac3d1.js",
       "static/chunks/196-11d24675d65dcc80.js",
       "static/chunks/802-098e961ffddc9a45.js",
-      "static/chunks/pages/photography-agency-ec0171aa5d2e9b38.js"
+      "static/chunks/pages/photography-agency-b0b883bf79c60f31.js"
     ],
     "/portfolio": [
       "static/chunks/webpack-6f85eb8e3d9b04d1.js",

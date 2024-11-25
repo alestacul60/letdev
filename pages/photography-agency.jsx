@@ -147,7 +147,7 @@ export default function PhotographyAgency() {
                     <Spacing lg="20" md="20" />
                   </Div>
                   <Div className="col-sm-6">
-                    <label className="cs-primary_color">Telefono*</label>
+                    <label className="cs-primary_color">Teléfono*</label>
                     <input type="text" className="cs-form_field" />
                     <Spacing lg="20" md="20" />
                   </Div>
