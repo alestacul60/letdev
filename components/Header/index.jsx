@@ -59,7 +59,7 @@ export default function Header({ variant }) {
                               href="creative-portfolio"
                               onClick={() => setMobileToggle(false)}
                             >
-                              Portfolio Creativo
+                              Desarrollo de Software
                             </Link>
                           </li>
                           <li>

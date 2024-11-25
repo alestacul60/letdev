@@ -287,7 +287,7 @@ function Header({ variant  }) {
                                                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_7___default()), {
                                                                                 href: "creative-portfolio",
                                                                                 onClick: ()=>setMobileToggle(false),
-                                                                                children: "Portfolio Creativo"
+                                                                                children: "Desarrollo de Software"
                                                                             })
                                                                         }),
                                                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
