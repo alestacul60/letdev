@@ -9,6 +9,7 @@ import MovingText from '../components/MovingText';
 import SectionHeading from '../components/SectionHeading';
 import PortfolioSlider from '../components/Slider/PortfolioSlider';
 import Spacing from '../components/Spacing';
+import LetDevPOSlider from '../components/Slider/LetDevPOSlider';
 
 export default function Home() {
   // Hero Social Links
@@ -52,6 +53,7 @@ export default function Home() {
       </Head>
       <Layout>
         {/* Start Hero Section */}
+
         <Hero
           title="LetDev"
           subtitle="Impulsamos la transformacion digital de empresas mediante soluciones digitales practicas y personalizadas, promoviendo el crecimiento empresarial."
@@ -60,7 +62,7 @@ export default function Home() {
           scrollDownId="#service"
           socialLinksHeading="Seguinos"
           heroSocialLinks={heroSocialLinks}
-          bgImageUrl="/images/principal2.png"
+          bgImageUrl="/images/WEB.png"
         />
         {/* End Hero Section */}
 
@@ -96,7 +98,7 @@ export default function Home() {
                     <Card
                       title="Diseño UI/UX"
                       link="/service/service-details"
-                      src="/images/uxui500x500.jpg"
+                      src="/images/uxui500x500.png"
                       alt="Service"
                     />
                     <Spacing lg="0" md="30" />
@@ -106,7 +108,7 @@ export default function Home() {
                     <Card
                       title="Diseño Grafico"
                       link="/service/service-details"
-                      src="/images/grafico500x500.jpg"
+                      src="/images/grafico500x500.png"
                       alt="Service"
                     />
                     <Spacing lg="0" md="30" />
@@ -115,7 +117,7 @@ export default function Home() {
                     <Card
                       title="Marketing Digital"
                       link="/service/service-details"
-                      src="/images/marketin500x500.jpg"
+                      src="/images/marketin500x500.png"
                       alt="Service"
                     />
                     <Spacing lg="0" md="30" />
@@ -125,7 +127,7 @@ export default function Home() {
                     <Card
                       title="Desarrollo de Software"
                       link="/service/service-details"
-                      src="/images/soft500x500.jpg"
+                      src="/images/soft500x500.png"
                       alt="Service"
                     />
                     <Spacing lg="0" md="30" />
@@ -137,6 +139,19 @@ export default function Home() {
           </Div>
         </Div>
         {/* End Service Section */}
+
+        <Spacing lg="150" md="50" />
+        <Div>
+          <Div className="container">
+            <SectionHeading
+              title="LetDev-POS"
+              subtitle="Proximamente"
+              variant="cs-style1 text-center"
+            />
+            <Spacing lg="90" md="45" />
+          </Div>
+          <LetDevPOSlider />
+        </Div>
 
         {/* Start Portfolio Section */}
         <Spacing lg="150" md="50" />

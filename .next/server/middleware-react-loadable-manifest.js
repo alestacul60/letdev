@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST={"..\\components\\Hero\\Hero3.jsx -> react-water-wave":{id:7674,files:["static/chunks/b637e9a5.72306854ad8c548c.js","static/chunks/674.009a2351fadaa20c.js"]},"..\\components\\Layout\\index.jsx -> ../CustomCursor":{id:3551,files:["static/chunks/551.0a9b07389b160176.js"]}};
+self.__REACT_LOADABLE_MANIFEST={"..\\components\\Layout\\index.jsx -> ../CustomCursor":{"id":"..\\components\\Layout\\index.jsx -> ../CustomCursor","files":["static/chunks/components_CustomCursor_index_jsx.js"]}}

@@ -42,12 +42,6 @@ export default function PortfolioSlider2() {
       src: '/images/cap16.PNG'
     },
     {
-      title: 'Presentacion',
-      subtitle: 'Ver Detalle',
-      href: '/portfolio/portfolio-details',
-      src: '/images/cap17.PNG'
-    },
-    {
       title: 'Portfolio Fotografico',
       subtitle: 'Ver Detalle',
       href: '/portfolio/portfolio-details',

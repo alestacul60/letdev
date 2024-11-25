@@ -8,21 +8,21 @@ export default function ServiceList() {
       title: 'Desarrollo Web',
       subtitle:
         'Creamos sitios web optimizados y personalizados para tu negocio, asegurando rendimiento y experiencia de usuario de primer nivel.',
-      imgUrl: '/images/soft500x500.jpg',
+      imgUrl: '/images/soft500x500.png',
       href: '/service/service-details',
     },
     {
       title: 'Diseño Gráfico',
       subtitle:
         'Diseñamos identidades visuales únicas que transmiten la esencia de tu marca de manera efectiva y atractiva.',
-      imgUrl: '/images/grafico500x500.jpg',
+      imgUrl: '/images/grafico500x500.png',
       href: '/service/service-details',
     },
     {
       title: 'Marketing Digital',
       subtitle:
         'Implementamos estrategias de marketing digital para incrementar tu presencia online y atraer clientes potenciales.',
-      imgUrl: '/images/marketin500x500.jpg',
+      imgUrl: '/images/marketin500x500.png',
       href: '/service/service-details',
     },
     {
@@ -36,7 +36,7 @@ export default function ServiceList() {
       title: 'Diseño UX/UI',
       subtitle:
         'Creamos interfaces intuitivas y atractivas, priorizando la experiencia del usuario y el diseño funcional.',
-      imgUrl: '/images/uxui500x500.jpg',
+      imgUrl: '/images/uxui500x500.png',
       href: '/service/service-details',
     },
 

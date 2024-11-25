@@ -56,13 +56,6 @@ export default function PortfolioPage() {
       category: 'web_design',
     },
     {
-      title: 'Presentacion',
-      subtitle: 'Ver Detalle',
-      href: '/portfolio/portfolio-details',
-      src: '/images/cap17.PNG',
-      category: 'web_design',
-    },
-    {
       title: 'Portfolio Fotografico',
       subtitle: 'Ver Detalle',
       href: '/portfolio/portfolio-details',
